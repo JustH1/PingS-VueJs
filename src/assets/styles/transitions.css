@@ -1,0 +1,66 @@
+/* Fade */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity var(--transition-normal);
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Slide up (for modals, toasts) */
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: opacity var(--transition-normal), transform var(--transition-normal);
+}
+.slide-up-enter-from,
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+/* Slide right (for sidebar on mobile) */
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: transform var(--transition-normal);
+}
+.slide-right-enter-from,
+.slide-right-leave-to {
+  transform: translateX(-100%);
+}
+
+/* Scale (for context menu) */
+.scale-enter-active,
+.scale-leave-active {
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+  transform-origin: top left;
+}
+.scale-enter-from,
+.scale-leave-to {
+  opacity: 0;
+  transform: scale(0.92);
+}
+
+/* Toast list */
+.toast-enter-active,
+.toast-leave-active {
+  transition: all var(--transition-normal);
+}
+.toast-enter-from {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.toast-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* Chat panel switch */
+.chat-switch-enter-active,
+.chat-switch-leave-active {
+  transition: opacity var(--transition-fast);
+}
+.chat-switch-enter-from,
+.chat-switch-leave-to {
+  opacity: 0;
+}

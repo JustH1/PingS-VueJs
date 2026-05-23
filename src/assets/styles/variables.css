@@ -1,0 +1,78 @@
+:root {
+  /* Backgrounds */
+  --color-bg-primary: #0e1621;
+  --color-bg-secondary: #17212b;
+  --color-bg-tertiary: #242f3d;
+  --color-bg-hover: #2b3d53;
+  --color-bg-input: #1c2a38;
+  --color-bg-modal: #17212b;
+  --color-bg-overlay: rgba(0, 0, 0, 0.6);
+
+  /* Accent */
+  --color-accent: #2b5278;
+  --color-accent-hover: #3a6a9a;
+  --color-accent-light: #3d6b9e;
+
+  /* Text */
+  --color-text-primary: #e8eaf0;
+  --color-text-secondary: #8a9ab0;
+  --color-text-muted: #5a6a7a;
+  --color-text-inverse: #ffffff;
+
+  /* Status */
+  --color-online: #4caf50;
+  --color-offline: #5a6a7a;
+  --color-danger: #e53935;
+  --color-danger-hover: #c62828;
+  --color-success: #43a047;
+  --color-warning: #fb8c00;
+
+  /* Borders */
+  --color-border: #1c2a38;
+  --color-border-light: #243342;
+
+  /* Toast */
+  --color-toast-info: #2b5278;
+  --color-toast-success: #2e7d32;
+  --color-toast-error: #b71c1c;
+  --color-toast-warning: #e65100;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-bubble: 18px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-size-xs: 11px;
+  --font-size-sm: 13px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+
+  /* Layout */
+  --sidebar-width: 340px;
+  --header-height: 56px;
+  --input-height: 52px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
